@@ -1,0 +1,108 @@
+<!doctype html>
+<html>
+    <head>
+        <title>Niya's Website</title>
+        <style>
+            body {
+                background-image: url("https://i.ytimg.com/vi/tsjd7xdgfjA/maxresdefault.jpg");
+                color: rgb(45, 45, 45);
+                padding: 10px;
+                font-family: fantasy;
+            }
+            header {
+                font-size: 1.5em;
+                font-weight: bold;
+            }
+            [id=all-contents] {
+                max-width: 800px;
+                margin: auto;
+            }
+    
+            /* navigation menu */
+            nav {
+                background: rgb(0, 0, 0);
+                margin: 0 auto;
+                margin-bottom:20px;
+                display: flex;
+                padding: 10px;
+                border-style: solid;
+                border-color: white;
+                border-radius: 25px;
+            }
+            nav header {
+                display: flex;
+                align-items: center;
+                color: rgb(255, 255, 255);
+                flex: 1;
+            }
+            nav ul {
+                list-style-image: none;
+            }
+            nav li {
+                display: inline-block;
+                padding: 0 10px;
+            }
+            nav a {
+                text-decoration: none;
+                color: #fff;
+            }
+    
+            /* main container area beneath menu */
+            main {
+                background: rgb(0, 3, 68);
+                display: flex;
+                border-radius: 25px;
+                border-style: solid;
+                border-color: white;
+            }
+            .sidebar {
+                margin-right: 25px;
+                padding: 20px;
+            }
+            [class=sidebar] img {
+                width: 200px;
+            }
+            [class=content] {
+                flex: 1;
+                padding: 15px;
+                color: rgb(255, 255, 255);
+            }
+            [class=interests] header {
+                font-size: 1.25em;
+                color: white;
+            }
+        </style>
+    </head>
+    <body>
+        <div id="allcontents">
+            <nav>
+                <header>My Unique Universe</header>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="portfolio.html">Portfolio</a></li>
+                </ul>
+            </nav>
+            
+            <main>
+              <div class="sidebar">
+                  <img src="https://cdn-s3.touchofmodern.com/products/000/417/178/600a64d4fbe12bb8b7140e31753f4b36_large.jpg?1460161375">
+              </div>
+              
+              <div class="content">
+                  <header>Niya Patterson!</header>
+                  <p>Student at Belle Chasse High School</p>
+                  <section class="interests">
+                      <header>Interests</header>
+                      <ul>
+                          <li>Watching Anime</li>
+                          <li>Reading Mangas</li>
+                          <li>Listening to Kpop</li>
+                          <li>Throwing Discus</li>
+                      </ul>
+                  </section>
+              </div>
+                    
+            </main>
+        </div>
+    </body>
+</html>
